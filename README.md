@@ -22,7 +22,7 @@ SDWebImage
 + `ZQSearchEditViewController`
 
 #### 如何使用
-> `git clone` project，将ZQSearch文件夹拖入项目
+- `git clone` project，将ZQSearch文件夹拖入项目
 
 ##### 使用详情（项目里有demo）
 
