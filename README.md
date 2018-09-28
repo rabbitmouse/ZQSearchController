@@ -1,13 +1,13 @@
-##### ZQSearchController 仿饿了么搜索栏交互，
+# ZQSearchController 
+仿饿了么搜索栏交互
 
 #### 主要功能
-
-1.搜索主界面、模糊匹配界面，搜索结果界面之前的状态切换。
-2.可使用自定义结果界面进行搜索结果的展示。
-3.输入内容节流处理，输入完毕后0.5秒后再发生搜索事件。
-4.支持搜索历史，
-5.支持热门搜索配置
-6.顶部已适配iPhoneX或Xs
+1. 搜索主界面、模糊匹配界面，搜索结果界面之前的状态切换。
+2. 可使用自定义结果界面进行搜索结果的展示。
+3. 输入内容节流处理，输入完毕后 0.5 秒后再发生搜索事件。
+4. 支持搜索历史，
+5. 支持热门搜索配置
+6. 顶部已适配iPhoneX 或 Xs
 
 #### 效果
 ![demo](./demo.gif)
@@ -27,7 +27,7 @@ SDWebImage
 ##### 使用详情（项目里有demo）
 
 1.初始化ZQSearchController
-```
+```objc
 NSArray *hots = @[@"热门",@"热门热门",@"热门热门热门",@"热门热门",@"热门",@"热门",@"热热门热门热门门"];
 
 UIViewController *resultController = [UIViewController new];
@@ -37,7 +37,7 @@ vc.delegate = self;
 [self.navigationController pushViewController:vc animated:NO];
 ```
 2.实现代理
-```
+```objc
 - (void)searchEditViewRefreshWithDataBlock:(void (^)(id))block {
 //异步调用搜索接口。
 将搜索结果通过block回调到searchcontroller内部。
@@ -62,9 +62,9 @@ ResultViewController *vc = [ResultViewController new];
 ```
 3.数据模型
 
-搜索结果的对象需遵守ZQSearchData协议。用于显示模糊搜索时的匹配结果UI
-```
-@protocol ZQSearchData<NSObject>
+搜索结果的对象需遵守 ZQSearchData 协议。用于显示模糊搜索时的匹配结果 UI
+```objc
+@protocol ZQSearchData <NSObject>
 @required
 @property (nonatomic, copy) NSString *title;
 
