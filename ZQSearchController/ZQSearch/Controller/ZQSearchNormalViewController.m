@@ -82,7 +82,7 @@ static NSString *normalCellIdentifier = @"cellIdentifier";
     [header showDeleteHistoryBtn:indexPath.section == 1 CallBack:^{
         @strongify(self)
         [self.historyList removeAllObjects];
-        [NSKeyedArchiver archiveRootObject:self.historyList toFile:ZQSearchHistorys];
+        [NSKeyedArchiver archiveRootObject:self.historyList toFile:ZQ_SEARCH_HISTORY_CACHE_PATH];
         [self.collectionView reloadData];
     }];
     return header;

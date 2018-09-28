@@ -25,7 +25,6 @@ typedef NS_ENUM(NSUInteger, SearchEditType) {
 @property (nonatomic, copy) NSString *iconUrl;
 @property (nonatomic, copy) NSString *desc;
 
-
 @end
 
 @protocol ZQSearchChildViewDelegate<NSObject>

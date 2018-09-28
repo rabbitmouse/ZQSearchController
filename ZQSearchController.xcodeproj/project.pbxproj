@@ -18,6 +18,7 @@
 		0C1F4B58215E21830010C1F3 /* ic_search@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C1F4B57215E21830010C1F3 /* ic_search@3x.png */; };
 		0C1F4B5B215E28C30010C1F3 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1F4B5A215E28C30010C1F3 /* ResultViewController.m */; };
 		0C1F4B61215E2F6D0010C1F3 /* ic_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C1F4B60215E2F6D0010C1F3 /* ic_back@2x.png */; };
+		0C1F4B65215E39090010C1F3 /* ResultFuzzyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1F4B64215E39090010C1F3 /* ResultFuzzyViewController.m */; };
 		0C4E386821538A2D000766A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4E386721538A2D000766A0 /* AppDelegate.m */; };
 		0C4E386B21538A2D000766A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4E386A21538A2D000766A0 /* ViewController.m */; };
 		0C4E386E21538A2D000766A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C4E386C21538A2D000766A0 /* Main.storyboard */; };
@@ -71,6 +72,8 @@
 		0C1F4B59215E28C30010C1F3 /* ResultViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
 		0C1F4B5A215E28C30010C1F3 /* ResultViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
 		0C1F4B60215E2F6D0010C1F3 /* ic_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_back@2x.png"; sourceTree = "<group>"; };
+		0C1F4B63215E39090010C1F3 /* ResultFuzzyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResultFuzzyViewController.h; sourceTree = "<group>"; };
+		0C1F4B64215E39090010C1F3 /* ResultFuzzyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResultFuzzyViewController.m; sourceTree = "<group>"; };
 		0C4E386321538A2C000766A0 /* ZQSearchController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZQSearchController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C4E386621538A2D000766A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0C4E386721538A2D000766A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -199,6 +202,21 @@
 			path = Image;
 			sourceTree = "<group>";
 		};
+		0C1F4B62215E38810010C1F3 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				0C4E386921538A2D000766A0 /* ViewController.h */,
+				0C4E386A21538A2D000766A0 /* ViewController.m */,
+				0C1F4B59215E28C30010C1F3 /* ResultViewController.h */,
+				0C1F4B5A215E28C30010C1F3 /* ResultViewController.m */,
+				0C1F4B63215E39090010C1F3 /* ResultFuzzyViewController.h */,
+				0C1F4B64215E39090010C1F3 /* ResultFuzzyViewController.m */,
+				0C508067215B6D8500A106FD /* searchEditModel.h */,
+				0C508068215B6D8500A106FD /* searchEditModel.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
 		0C4E385A21538A2C000766A0 = {
 			isa = PBXGroup;
 			children = (
@@ -225,12 +243,7 @@
 				0C4E389B21538C7C000766A0 /* ZQSearch */,
 				0C4E386621538A2D000766A0 /* AppDelegate.h */,
 				0C4E386721538A2D000766A0 /* AppDelegate.m */,
-				0C4E386921538A2D000766A0 /* ViewController.h */,
-				0C4E386A21538A2D000766A0 /* ViewController.m */,
-				0C1F4B59215E28C30010C1F3 /* ResultViewController.h */,
-				0C1F4B5A215E28C30010C1F3 /* ResultViewController.m */,
-				0C508067215B6D8500A106FD /* searchEditModel.h */,
-				0C508068215B6D8500A106FD /* searchEditModel.m */,
+				0C1F4B62215E38810010C1F3 /* Demo */,
 				0C4E386C21538A2D000766A0 /* Main.storyboard */,
 				0C4E386F21538A2E000766A0 /* Assets.xcassets */,
 				0C4E387121538A2E000766A0 /* LaunchScreen.storyboard */,
@@ -428,6 +441,7 @@
 				0C4E387621538A2E000766A0 /* main.m in Sources */,
 				0C17C133215A24230003ACDB /* UIColor+ZQSearch.m in Sources */,
 				0C4E386821538A2D000766A0 /* AppDelegate.m in Sources */,
+				0C1F4B65215E39090010C1F3 /* ResultFuzzyViewController.m in Sources */,
 				0C17C12E215A22CF0003ACDB /* ZQSearchNormalCell.m in Sources */,
 				0C4E389A21538AF9000766A0 /* ZQSearchViewController.m in Sources */,
 				0C17C128215A201E0003ACDB /* ZQSearchNormalViewController.m in Sources */,

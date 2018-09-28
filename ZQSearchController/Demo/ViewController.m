@@ -12,6 +12,7 @@
 #import "ZQSearchConst.h"
 #import "searchEditModel.h"
 #import "ResultViewController.h"
+#import "ResultFuzzyViewController.h"
 
 @interface ViewController ()<ZQSearchViewDelegate>
 
@@ -37,12 +38,12 @@
 - (IBAction)searchTap:(id)sender {
     NSArray *hots = @[@"热门",@"热门热门",@"热门热门热门",@"热门热门",@"热门",@"热门",@"热热门热门热门门"];
     
-    UIViewController *resultController = [UIViewController new];
-    resultController.view.backgroundColor = [UIColor orangeColor];
+    ResultFuzzyViewController *resultController = [ResultFuzzyViewController new];
     
     ZQSearchViewController *vc = [[ZQSearchViewController alloc] initSearchViewWithHotDatas:hots resultController:resultController];
     vc.delegate = self;
     [self.navigationController pushViewController:vc animated:NO];
+    
 }
 
 
@@ -72,7 +73,6 @@
     //2
     NSLog(@"%@",data);
     //3
-    resultController.view.backgroundColor = [UIColor redColor];
 }
 
 - (void)searchConfirmResultWithKeyString:(NSString *)keyString Data:(id<ZQSearchData>)data resultController:(UIViewController *)resultController {
