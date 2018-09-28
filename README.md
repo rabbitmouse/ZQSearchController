@@ -1,6 +1,6 @@
-#####ZQSearchController 仿饿了么搜索栏交互，
+##### ZQSearchController 仿饿了么搜索栏交互，
 
-####主要功能
+#### 主要功能
 
 1.搜索主界面、模糊匹配界面，搜索结果界面之前的状态切换。
 2.可使用自定义结果界面进行搜索结果的展示。
@@ -9,19 +9,19 @@
 5.支持热门搜索配置
 6.顶部已适配iPhoneX或Xs
 
-####效果
+#### 效果
 ![demo](./demo.gif)
 
-####依赖项目
+#### 依赖项目
 SDWebImage
 
-####main
+#### main
 + `ZQSearchConst`
 + `ZQSearchViewController`
 + `ZQSearchNormalViewController`
 + `ZQSearchEditViewController`
 
-####如何使用
+#### 如何使用
 + git clone 项目，将ZQSearch文件夹拖入项目
 #####使用详情（项目里有demo）
 
@@ -75,5 +75,5 @@ ResultViewController *vc = [ResultViewController new];
 @end
 ```
 
-####感谢
+#### 感谢
 如果你喜欢，可以给我star一下，如果觉得写的不好 也可以留言讨论，或者分享你的看法。
