@@ -39,5 +39,6 @@ typedef NS_ENUM(NSUInteger, ZQSearchState) {
 @property (nonatomic, weak) id<ZQSearchViewDelegate> delegate;
 
 @property (nonatomic, assign) BOOL closeFuzzyTable;//default is NO, 如果设置为YES，将不显示模糊匹配列表。可以不实现searchEditViewRefreshWithDataBlock和searchConfirmResultWithKeyString这两个代理。
+@property (nonatomic, copy) NSString *placeholder;
 
 @end

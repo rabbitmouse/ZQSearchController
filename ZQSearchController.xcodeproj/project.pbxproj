@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0C17C128215A201E0003ACDB /* ZQSearchNormalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C17C127215A201E0003ACDB /* ZQSearchNormalViewController.m */; };
 		0C17C12E215A22CF0003ACDB /* ZQSearchNormalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C17C12C215A22CF0003ACDB /* ZQSearchNormalCell.m */; };
-		0C17C12F215A22CF0003ACDB /* ZQSearchNormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C17C12D215A22CF0003ACDB /* ZQSearchNormalCell.xib */; };
 		0C17C133215A24230003ACDB /* UIColor+ZQSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C17C132215A24230003ACDB /* UIColor+ZQSearch.m */; };
 		0C17C137215A279A0003ACDB /* ZQSearchNormalLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C17C136215A279A0003ACDB /* ZQSearchNormalLayout.m */; };
 		0C17C13F215A2C6A0003ACDB /* ZQSearchCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C17C13E215A2C6A0003ACDB /* ZQSearchCollectionReusableView.m */; };
@@ -31,9 +30,7 @@
 		0C507BFC215B24A000A106FD /* ZQSearchEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C507BFB215B24A000A106FD /* ZQSearchEditViewController.m */; };
 		0C507E14215B2DA300A106FD /* ZQSearchEditBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C507E13215B2DA300A106FD /* ZQSearchEditBaseCell.m */; };
 		0C507E18215B2E5E00A106FD /* ZQSearchEditNormalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C507E16215B2E5E00A106FD /* ZQSearchEditNormalCell.m */; };
-		0C507E19215B2E5E00A106FD /* ZQSearchEditNormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C507E17215B2E5E00A106FD /* ZQSearchEditNormalCell.xib */; };
 		0C508065215B670A00A106FD /* ZQSearchConfirmCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C508063215B670A00A106FD /* ZQSearchConfirmCell.m */; };
-		0C508066215B670A00A106FD /* ZQSearchConfirmCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C508064215B670A00A106FD /* ZQSearchConfirmCell.xib */; };
 		0C508069215B6D8500A106FD /* searchEditModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C508068215B6D8500A106FD /* searchEditModel.m */; };
 		0C7D97FB216AF2CE0095DA87 /* default@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7D97FA216AF2CE0095DA87 /* default@3x.png */; };
 		14D9BD4F2EEB108F3333AD7E /* libPods-ZQSearchControllerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB5F4B5C0A249BD55BC37EA /* libPods-ZQSearchControllerUITests.a */; };
@@ -63,7 +60,6 @@
 		0C17C127215A201E0003ACDB /* ZQSearchNormalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQSearchNormalViewController.m; sourceTree = "<group>"; };
 		0C17C12B215A22CF0003ACDB /* ZQSearchNormalCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZQSearchNormalCell.h; sourceTree = "<group>"; };
 		0C17C12C215A22CF0003ACDB /* ZQSearchNormalCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQSearchNormalCell.m; sourceTree = "<group>"; };
-		0C17C12D215A22CF0003ACDB /* ZQSearchNormalCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZQSearchNormalCell.xib; sourceTree = "<group>"; };
 		0C17C131215A24230003ACDB /* UIColor+ZQSearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZQSearch.h"; sourceTree = "<group>"; };
 		0C17C132215A24230003ACDB /* UIColor+ZQSearch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZQSearch.m"; sourceTree = "<group>"; };
 		0C17C135215A279A0003ACDB /* ZQSearchNormalLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZQSearchNormalLayout.h; sourceTree = "<group>"; };
@@ -103,10 +99,8 @@
 		0C507E13215B2DA300A106FD /* ZQSearchEditBaseCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQSearchEditBaseCell.m; sourceTree = "<group>"; };
 		0C507E15215B2E5E00A106FD /* ZQSearchEditNormalCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZQSearchEditNormalCell.h; sourceTree = "<group>"; };
 		0C507E16215B2E5E00A106FD /* ZQSearchEditNormalCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQSearchEditNormalCell.m; sourceTree = "<group>"; };
-		0C507E17215B2E5E00A106FD /* ZQSearchEditNormalCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZQSearchEditNormalCell.xib; sourceTree = "<group>"; };
 		0C508062215B670A00A106FD /* ZQSearchConfirmCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZQSearchConfirmCell.h; sourceTree = "<group>"; };
 		0C508063215B670A00A106FD /* ZQSearchConfirmCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQSearchConfirmCell.m; sourceTree = "<group>"; };
-		0C508064215B670A00A106FD /* ZQSearchConfirmCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZQSearchConfirmCell.xib; sourceTree = "<group>"; };
 		0C508067215B6D8500A106FD /* searchEditModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = searchEditModel.h; sourceTree = "<group>"; };
 		0C508068215B6D8500A106FD /* searchEditModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = searchEditModel.m; sourceTree = "<group>"; };
 		0C7D97FA216AF2CE0095DA87 /* default@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default@3x.png"; sourceTree = "<group>"; };
@@ -167,17 +161,14 @@
 			children = (
 				0C17C12B215A22CF0003ACDB /* ZQSearchNormalCell.h */,
 				0C17C12C215A22CF0003ACDB /* ZQSearchNormalCell.m */,
-				0C17C12D215A22CF0003ACDB /* ZQSearchNormalCell.xib */,
 				0C17C13D215A2C6A0003ACDB /* ZQSearchCollectionReusableView.h */,
 				0C17C13E215A2C6A0003ACDB /* ZQSearchCollectionReusableView.m */,
 				0C507E12215B2DA300A106FD /* ZQSearchEditBaseCell.h */,
 				0C507E13215B2DA300A106FD /* ZQSearchEditBaseCell.m */,
 				0C507E15215B2E5E00A106FD /* ZQSearchEditNormalCell.h */,
 				0C507E16215B2E5E00A106FD /* ZQSearchEditNormalCell.m */,
-				0C507E17215B2E5E00A106FD /* ZQSearchEditNormalCell.xib */,
 				0C508062215B670A00A106FD /* ZQSearchConfirmCell.h */,
 				0C508063215B670A00A106FD /* ZQSearchConfirmCell.m */,
-				0C508064215B670A00A106FD /* ZQSearchConfirmCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -445,12 +436,9 @@
 				0C1F4B58215E21830010C1F3 /* ic_search@3x.png in Resources */,
 				0C7D97FB216AF2CE0095DA87 /* default@3x.png in Resources */,
 				0C1F4B56215E1EF10010C1F3 /* empty.png in Resources */,
-				0C507E19215B2E5E00A106FD /* ZQSearchEditNormalCell.xib in Resources */,
 				0C1F4B61215E2F6D0010C1F3 /* ic_back@2x.png in Resources */,
-				0C17C12F215A22CF0003ACDB /* ZQSearchNormalCell.xib in Resources */,
 				0C4E387021538A2E000766A0 /* Assets.xcassets in Resources */,
 				0C4E386E21538A2D000766A0 /* Main.storyboard in Resources */,
-				0C508066215B670A00A106FD /* ZQSearchConfirmCell.xib in Resources */,
 				0C1F4B54215E1D0E0010C1F3 /* icon_x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

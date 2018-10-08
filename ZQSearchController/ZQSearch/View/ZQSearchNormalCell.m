@@ -11,17 +11,37 @@
 
 @interface ZQSearchNormalCell()
 
-@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
+@property (weak, nonatomic) UILabel *titleLabel;
 
 @end
 
 @implementation ZQSearchNormalCell
 
-- (void)awakeFromNib {
-    [super awakeFromNib];
+- (instancetype)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        [self configUI];
+        [self changeStyleWith:NO];
+    }
+    return self;
+}
+
+- (void)configUI {
+    UILabel *label = [UILabel new];
+    label.font = [UIFont systemFontOfSize:12];
+    label.textColor = [UIColor blackColor];
+    label.textAlignment = NSTextAlignmentCenter;
+    [self.contentView addSubview:label];
+    self.titleLabel = label;
     
     self.layer.cornerRadius = 4;
-    [self changeStyleWith:NO];
+}
+
+- (void)layoutSubviews {
+    [super layoutSubviews];
+    
+    self.titleLabel.frame = self.bounds;
 }
 
 - (void)changeStyleWith:(BOOL)heightLight {

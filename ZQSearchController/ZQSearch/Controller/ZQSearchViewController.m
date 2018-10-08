@@ -43,6 +43,10 @@
 
 @implementation ZQSearchViewController
 
+- (void)dealloc {
+    NSLog(@"dealloc");
+}
+
 - (instancetype)initSearchViewWithHotDatas:(NSArray *)hotList resultController:(UIViewController *)resultController{
     self = [super init];
     if (self) {
@@ -267,7 +271,7 @@
     }
 }
 
-- (BOOL) isIPhoneX {
+- (BOOL)isIPhoneX {
     CGSize screenSize = [UIScreen mainScreen].bounds.size;
     return screenSize.width >= 375 && screenSize.height >= 812;
 }
@@ -395,7 +399,6 @@
     if (!_ctr1) {
         _ctr1 = [[UIViewController alloc] init];
         _ctr1.view.frame = self.baseView.bounds;
-        _ctr1.view.backgroundColor = [UIColor blueColor];
     }
     return _ctr1;
 }
@@ -404,7 +407,6 @@
     if (!_ctr2) {
         _ctr2 = [[ZQSearchEditViewController alloc] init];
         _ctr2.view.frame = self.baseView.bounds;
-        _ctr2.view.backgroundColor = [UIColor orangeColor];
         _ctr2.delegate = self;
     }
     return _ctr2;
@@ -423,6 +425,11 @@
     _closeFuzzyTable = closeFuzzyTable;
     [self.ctr2.view removeFromSuperview];
     self.ctr2 = nil;
+}
+
+- (void)setPlaceholder:(NSString *)placeholder {
+    _placeholder = placeholder.copy;
+    self.searchBar.placeholder = _placeholder;
 }
 
 @end

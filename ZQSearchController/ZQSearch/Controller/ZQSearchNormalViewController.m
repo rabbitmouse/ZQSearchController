@@ -41,7 +41,7 @@ static NSString *normalCellIdentifier = @"cellIdentifier";
 - (void)setupCollectionView {
     [self.view addSubview:self.collectionView];
     
-    [self.collectionView registerNib:[UINib nibWithNibName:NSStringFromClass([ZQSearchNormalCell class]) bundle:nil] forCellWithReuseIdentifier:normalCellIdentifier];
+    [self.collectionView registerClass:[ZQSearchNormalCell class] forCellWithReuseIdentifier:normalCellIdentifier];
     [self.collectionView registerClass:[ZQSearchCollectionReusableView class] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:normalHeaderIdentifier];
 }
 

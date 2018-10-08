@@ -77,8 +77,8 @@
         _tableView.delegate = self;
         _tableView.dataSource = self;
         _tableView.tableFooterView = [UIView new];
-        [_tableView registerNib:[UINib nibWithNibName:NSStringFromClass([ZQSearchEditNormalCell class]) bundle:nil] forCellReuseIdentifier:[ZQSearchEditBaseCell childCellIdentifierWith:@(1)]];
-        [_tableView registerNib:[UINib nibWithNibName:NSStringFromClass([ZQSearchConfirmCell class]) bundle:nil] forCellReuseIdentifier:[ZQSearchEditBaseCell childCellIdentifierWith:@(2)]];
+        [_tableView registerClass:[ZQSearchEditNormalCell class] forCellReuseIdentifier:[ZQSearchEditBaseCell childCellIdentifierWith:@(1)]];
+        [_tableView registerClass:[ZQSearchConfirmCell class] forCellReuseIdentifier:[ZQSearchEditBaseCell childCellIdentifierWith:@(2)]];
     }
     return _tableView;
 }
