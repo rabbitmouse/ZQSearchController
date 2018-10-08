@@ -41,7 +41,7 @@
     ResultFuzzyViewController *resultController = [ResultFuzzyViewController new];
     
     ZQSearchViewController *vc = [[ZQSearchViewController alloc] initSearchViewWithHotDatas:hots resultController:resultController];
-    vc.closeFuzzyTable = YES;
+//    vc.closeFuzzyTable = YES; //关闭模糊匹配table
     vc.delegate = self;
     [self.navigationController pushViewController:vc animated:NO];
     
