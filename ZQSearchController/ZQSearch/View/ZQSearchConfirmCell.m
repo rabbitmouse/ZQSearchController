@@ -7,6 +7,7 @@
 //
 
 #import "ZQSearchConfirmCell.h"
+#import "UIImageView+WebCache.h"
 
 @interface ZQSearchConfirmCell()
 
@@ -28,6 +29,11 @@
     id<ZQSearchData> model = data;
     self.titlelabel.text = model.title;
     self.descLabel.text = model.desc;
+    if (model.image) {
+        self.iconImageView.image = model.image;
+    } else {
+        [self.iconImageView sd_setImageWithURL:[NSURL URLWithString:model.iconUrl]];
+    }
 }
 
 

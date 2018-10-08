@@ -16,5 +16,7 @@
 @property (nonatomic, copy) NSString *iconUrl;
 @property (nonatomic, copy) NSString *title;
 @property (nonatomic, copy) NSString *desc;
+@property (nonatomic, strong) UIImage *image;
+
 
 @end

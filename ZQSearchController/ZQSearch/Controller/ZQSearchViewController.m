@@ -419,4 +419,10 @@
     return _ctr3;
 }
 
+- (void)setCloseFuzzyTable:(BOOL)closeFuzzyTable {
+    _closeFuzzyTable = closeFuzzyTable;
+    [self.ctr2.view removeFromSuperview];
+    self.ctr2 = nil;
+}
+
 @end

@@ -23,8 +23,10 @@ typedef NS_ENUM(NSUInteger, ZQSearchState) {
 
 @protocol ZQSearchViewDelegate<NSObject>
 
-- (void)searchEditViewRefreshWithDataBlock:(void(^)(id data))block;
+@required
 - (void)searchFuzzyResultWithKeyString:(NSString *)keyString Data:(id<ZQSearchData>)data resultController:(UIViewController *)resultController;
+@optional
+- (void)searchEditViewRefreshWithDataBlock:(void(^)(id data))block;
 - (void)searchConfirmResultWithKeyString:(NSString *)keyString Data:(id<ZQSearchData>)data resultController:(UIViewController *)resultController;
 
 @end
@@ -35,5 +37,7 @@ typedef NS_ENUM(NSUInteger, ZQSearchState) {
 - (instancetype)initSearchViewWithHotDatas:(NSArray *)hotList resultController:(UIViewController *)resultController;
 
 @property (nonatomic, weak) id<ZQSearchViewDelegate> delegate;
+
+@property (nonatomic, assign) BOOL closeFuzzyTable;//default is NO, 如果设置为YES，将不显示模糊匹配列表。可以不实现searchEditViewRefreshWithDataBlock和searchConfirmResultWithKeyString这两个代理。
 
 @end

@@ -41,6 +41,7 @@
     ResultFuzzyViewController *resultController = [ResultFuzzyViewController new];
     
     ZQSearchViewController *vc = [[ZQSearchViewController alloc] initSearchViewWithHotDatas:hots resultController:resultController];
+    vc.closeFuzzyTable = YES;
     vc.delegate = self;
     [self.navigationController pushViewController:vc animated:NO];
     
@@ -54,6 +55,7 @@
         for (int i = 0; i < 5 + arc4random() % 10; i++) {
             searchEditModel *edit = [searchEditModel new];
             edit.iconUrl = @"123";
+            edit.image = [UIImage imageNamed:@"default"];
             edit.title = [NSString stringWithFormat:@"内容 %d", i];
             edit.desc = @"描述描述描述";
             edit.editType = i < 3 ? SearchEditTypeConfirm : SearchEditTypeFuzzy;

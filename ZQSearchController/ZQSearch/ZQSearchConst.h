@@ -9,6 +9,8 @@
 #ifndef ZQSearchConst_h
 #define ZQSearchConst_h
 
+#import <UIKit/UIKit.h>
+
 static NSString *ZQSearchHistorys = @"ZQSearchHistorys";
 
 typedef NS_ENUM(NSUInteger, SearchEditType) {
@@ -22,6 +24,7 @@ typedef NS_ENUM(NSUInteger, SearchEditType) {
 
 @optional
 @property (nonatomic, assign) SearchEditType editType;
+@property (nonatomic, strong) UIImage *image;//优先加载image图片
 @property (nonatomic, copy) NSString *iconUrl;
 @property (nonatomic, copy) NSString *desc;
 
