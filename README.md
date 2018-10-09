@@ -31,7 +31,7 @@ SDWebImage
 * Manual import：
   - `git clone` project 
   - 将ZQSearch文件夹拖入项目
-- `#import "ZQSearchViewController.h"`
+  - `#import "ZQSearchViewController.h"`
 
 ##### 使用详情（项目里有demo）
 
