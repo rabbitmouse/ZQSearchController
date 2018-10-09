@@ -25,10 +25,13 @@ SDWebImage
 + `ZQSearchEditViewController`
 
 #### 如何使用
-- Import:
-	`git clone` project，将ZQSearch文件夹拖入项目
-- Use CocoaPods:
-	`pod 'ZQSearch', '~> 0.1.3'`
+* Use CocoaPods:
+  - `pod 'ZQSearch', '~> 0.1.3'`
+  - `#import <ZQSearchViewController.h>`
+* Manual import：
+  - `git clone` project 
+  - 将ZQSearch文件夹拖入项目
+- `#import "ZQSearchViewController.h"`
 
 ##### 使用详情（项目里有demo）
 

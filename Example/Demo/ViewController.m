@@ -9,7 +9,7 @@
 #import "ViewController.h"
 
 #import "ZQSearchViewController.h"
-#import "ZQSearchConst.h"
+//#import "ZQSearchConst.h"
 #import "searchEditModel.h"
 #import "ResultViewController.h"
 #import "ResultFuzzyViewController.h"
