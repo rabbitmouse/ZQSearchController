@@ -32,6 +32,8 @@
 }
 
 - (void)configUI {
+    self.selectionStyle = UITableViewCellSelectionStyleNone;
+    
     UIImageView *iconView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ic_search"]];
     [self.contentView addSubview:iconView];
     self.iconImageView = iconView;

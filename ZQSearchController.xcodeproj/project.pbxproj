@@ -7,32 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C17C128215A201E0003ACDB /* ZQSearchNormalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C17C127215A201E0003ACDB /* ZQSearchNormalViewController.m */; };
-		0C17C12E215A22CF0003ACDB /* ZQSearchNormalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C17C12C215A22CF0003ACDB /* ZQSearchNormalCell.m */; };
-		0C17C133215A24230003ACDB /* UIColor+ZQSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C17C132215A24230003ACDB /* UIColor+ZQSearch.m */; };
-		0C17C137215A279A0003ACDB /* ZQSearchNormalLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C17C136215A279A0003ACDB /* ZQSearchNormalLayout.m */; };
-		0C17C13F215A2C6A0003ACDB /* ZQSearchCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C17C13E215A2C6A0003ACDB /* ZQSearchCollectionReusableView.m */; };
-		0C1F4B54215E1D0E0010C1F3 /* icon_x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C1F4B53215E1D0E0010C1F3 /* icon_x.png */; };
-		0C1F4B56215E1EF10010C1F3 /* empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C1F4B55215E1EF10010C1F3 /* empty.png */; };
-		0C1F4B58215E21830010C1F3 /* ic_search@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C1F4B57215E21830010C1F3 /* ic_search@3x.png */; };
-		0C1F4B5B215E28C30010C1F3 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1F4B5A215E28C30010C1F3 /* ResultViewController.m */; };
-		0C1F4B61215E2F6D0010C1F3 /* ic_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C1F4B60215E2F6D0010C1F3 /* ic_back@2x.png */; };
-		0C1F4B65215E39090010C1F3 /* ResultFuzzyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1F4B64215E39090010C1F3 /* ResultFuzzyViewController.m */; };
-		0C4E386821538A2D000766A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4E386721538A2D000766A0 /* AppDelegate.m */; };
-		0C4E386B21538A2D000766A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4E386A21538A2D000766A0 /* ViewController.m */; };
-		0C4E386E21538A2D000766A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C4E386C21538A2D000766A0 /* Main.storyboard */; };
-		0C4E387021538A2E000766A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C4E386F21538A2E000766A0 /* Assets.xcassets */; };
-		0C4E387321538A2E000766A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C4E387121538A2E000766A0 /* LaunchScreen.storyboard */; };
-		0C4E387621538A2E000766A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4E387521538A2E000766A0 /* main.m */; };
 		0C4E388021538A2E000766A0 /* ZQSearchControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4E387F21538A2E000766A0 /* ZQSearchControllerTests.m */; };
 		0C4E388B21538A2E000766A0 /* ZQSearchControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4E388A21538A2E000766A0 /* ZQSearchControllerUITests.m */; };
-		0C4E389A21538AF9000766A0 /* ZQSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4E389921538AF9000766A0 /* ZQSearchViewController.m */; };
-		0C507BFC215B24A000A106FD /* ZQSearchEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C507BFB215B24A000A106FD /* ZQSearchEditViewController.m */; };
-		0C507E14215B2DA300A106FD /* ZQSearchEditBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C507E13215B2DA300A106FD /* ZQSearchEditBaseCell.m */; };
-		0C507E18215B2E5E00A106FD /* ZQSearchEditNormalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C507E16215B2E5E00A106FD /* ZQSearchEditNormalCell.m */; };
-		0C508065215B670A00A106FD /* ZQSearchConfirmCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C508063215B670A00A106FD /* ZQSearchConfirmCell.m */; };
-		0C508069215B6D8500A106FD /* searchEditModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C508068215B6D8500A106FD /* searchEditModel.m */; };
-		0C7D97FB216AF2CE0095DA87 /* default@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7D97FA216AF2CE0095DA87 /* default@3x.png */; };
+		0C6F0900216C58ED0015CE9D /* icon_x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C6F08DE216C58ED0015CE9D /* icon_x.png */; };
+		0C6F0901216C58ED0015CE9D /* empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C6F08DF216C58ED0015CE9D /* empty.png */; };
+		0C6F0902216C58ED0015CE9D /* default@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C6F08E0216C58ED0015CE9D /* default@3x.png */; };
+		0C6F0903216C58ED0015CE9D /* ZQSearch.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 0C6F08E1216C58ED0015CE9D /* ZQSearch.podspec */; };
+		0C6F0904216C58ED0015CE9D /* ic_search@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C6F08E2216C58ED0015CE9D /* ic_search@3x.png */; };
+		0C6F0905216C58ED0015CE9D /* ic_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C6F08E3216C58ED0015CE9D /* ic_back@2x.png */; };
+		0C6F0906216C58ED0015CE9D /* UIColor+ZQSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6F08E9216C58ED0015CE9D /* UIColor+ZQSearch.m */; };
+		0C6F0907216C58ED0015CE9D /* ZQSearchNormalLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6F08EB216C58ED0015CE9D /* ZQSearchNormalLayout.m */; };
+		0C6F0908216C58ED0015CE9D /* ZQSearchEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6F08EF216C58ED0015CE9D /* ZQSearchEditViewController.m */; };
+		0C6F0909216C58ED0015CE9D /* ZQSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6F08F0216C58ED0015CE9D /* ZQSearchViewController.m */; };
+		0C6F090A216C58ED0015CE9D /* ZQSearchNormalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6F08F1216C58ED0015CE9D /* ZQSearchNormalViewController.m */; };
+		0C6F090B216C58ED0015CE9D /* ZQSearchNormalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6F08F7216C58ED0015CE9D /* ZQSearchNormalCell.m */; };
+		0C6F090C216C58ED0015CE9D /* ZQSearchEditBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6F08F8216C58ED0015CE9D /* ZQSearchEditBaseCell.m */; };
+		0C6F090D216C58ED0015CE9D /* ZQSearchConfirmCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6F08F9216C58ED0015CE9D /* ZQSearchConfirmCell.m */; };
+		0C6F090E216C58ED0015CE9D /* ZQSearchEditNormalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6F08FA216C58ED0015CE9D /* ZQSearchEditNormalCell.m */; };
+		0C6F090F216C58ED0015CE9D /* ZQSearchCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6F08FC216C58ED0015CE9D /* ZQSearchCollectionReusableView.m */; };
+		0C6F0923216C59000015CE9D /* searchEditModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6F0912216C59000015CE9D /* searchEditModel.m */; };
+		0C6F0924216C59000015CE9D /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6F0913216C59000015CE9D /* ResultViewController.m */; };
+		0C6F0925216C59000015CE9D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6F0914216C59000015CE9D /* ViewController.m */; };
+		0C6F0926216C59000015CE9D /* ResultFuzzyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6F0918216C59000015CE9D /* ResultFuzzyViewController.m */; };
+		0C6F0927216C59000015CE9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C6F091B216C59000015CE9D /* Assets.xcassets */; };
+		0C6F0928216C59000015CE9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C6F091C216C59000015CE9D /* LaunchScreen.storyboard */; };
+		0C6F0929216C59000015CE9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C6F091E216C59000015CE9D /* Main.storyboard */; };
+		0C6F092A216C59000015CE9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6F0920216C59000015CE9D /* main.m */; };
+		0C6F092B216C59000015CE9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6F0921216C59000015CE9D /* AppDelegate.m */; };
+		0C6F092C216C59000015CE9D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C6F0922216C59000015CE9D /* Info.plist */; };
 		14D9BD4F2EEB108F3333AD7E /* libPods-ZQSearchControllerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB5F4B5C0A249BD55BC37EA /* libPods-ZQSearchControllerUITests.a */; };
 		F14ECEA2701B3B4DC28E6150 /* libPods-ZQSearchController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE18AE016B8576B5A528756 /* libPods-ZQSearchController.a */; };
 		F4F376065CD7AC08A5632399 /* libPods-ZQSearchControllerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E0A97115FEAA4911B46CF1 /* libPods-ZQSearchControllerTests.a */; };
@@ -56,54 +58,55 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C17C126215A201E0003ACDB /* ZQSearchNormalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZQSearchNormalViewController.h; sourceTree = "<group>"; };
-		0C17C127215A201E0003ACDB /* ZQSearchNormalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQSearchNormalViewController.m; sourceTree = "<group>"; };
-		0C17C12B215A22CF0003ACDB /* ZQSearchNormalCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZQSearchNormalCell.h; sourceTree = "<group>"; };
-		0C17C12C215A22CF0003ACDB /* ZQSearchNormalCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQSearchNormalCell.m; sourceTree = "<group>"; };
-		0C17C131215A24230003ACDB /* UIColor+ZQSearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZQSearch.h"; sourceTree = "<group>"; };
-		0C17C132215A24230003ACDB /* UIColor+ZQSearch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZQSearch.m"; sourceTree = "<group>"; };
-		0C17C135215A279A0003ACDB /* ZQSearchNormalLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZQSearchNormalLayout.h; sourceTree = "<group>"; };
-		0C17C136215A279A0003ACDB /* ZQSearchNormalLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQSearchNormalLayout.m; sourceTree = "<group>"; };
-		0C17C13D215A2C6A0003ACDB /* ZQSearchCollectionReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZQSearchCollectionReusableView.h; sourceTree = "<group>"; };
-		0C17C13E215A2C6A0003ACDB /* ZQSearchCollectionReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQSearchCollectionReusableView.m; sourceTree = "<group>"; };
-		0C1F4B53215E1D0E0010C1F3 /* icon_x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_x.png; sourceTree = "<group>"; };
-		0C1F4B55215E1EF10010C1F3 /* empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = empty.png; sourceTree = "<group>"; };
-		0C1F4B57215E21830010C1F3 /* ic_search@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_search@3x.png"; sourceTree = "<group>"; };
-		0C1F4B59215E28C30010C1F3 /* ResultViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
-		0C1F4B5A215E28C30010C1F3 /* ResultViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
-		0C1F4B60215E2F6D0010C1F3 /* ic_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_back@2x.png"; sourceTree = "<group>"; };
-		0C1F4B63215E39090010C1F3 /* ResultFuzzyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResultFuzzyViewController.h; sourceTree = "<group>"; };
-		0C1F4B64215E39090010C1F3 /* ResultFuzzyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResultFuzzyViewController.m; sourceTree = "<group>"; };
 		0C4E386321538A2C000766A0 /* ZQSearchController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZQSearchController.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C4E386621538A2D000766A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0C4E386721538A2D000766A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0C4E386921538A2D000766A0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0C4E386A21538A2D000766A0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0C4E386D21538A2D000766A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0C4E386F21538A2E000766A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0C4E387221538A2E000766A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0C4E387421538A2E000766A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C4E387521538A2E000766A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0C4E387B21538A2E000766A0 /* ZQSearchControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZQSearchControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C4E387F21538A2E000766A0 /* ZQSearchControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQSearchControllerTests.m; sourceTree = "<group>"; };
 		0C4E388121538A2E000766A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C4E388621538A2E000766A0 /* ZQSearchControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZQSearchControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C4E388A21538A2E000766A0 /* ZQSearchControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQSearchControllerUITests.m; sourceTree = "<group>"; };
 		0C4E388C21538A2E000766A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C4E389821538AF9000766A0 /* ZQSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZQSearchViewController.h; sourceTree = "<group>"; };
-		0C4E389921538AF9000766A0 /* ZQSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQSearchViewController.m; sourceTree = "<group>"; };
-		0C507BF9215B189A00A106FD /* ZQSearchConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZQSearchConst.h; sourceTree = "<group>"; };
-		0C507BFA215B24A000A106FD /* ZQSearchEditViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZQSearchEditViewController.h; sourceTree = "<group>"; };
-		0C507BFB215B24A000A106FD /* ZQSearchEditViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQSearchEditViewController.m; sourceTree = "<group>"; };
-		0C507E12215B2DA300A106FD /* ZQSearchEditBaseCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZQSearchEditBaseCell.h; sourceTree = "<group>"; };
-		0C507E13215B2DA300A106FD /* ZQSearchEditBaseCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQSearchEditBaseCell.m; sourceTree = "<group>"; };
-		0C507E15215B2E5E00A106FD /* ZQSearchEditNormalCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZQSearchEditNormalCell.h; sourceTree = "<group>"; };
-		0C507E16215B2E5E00A106FD /* ZQSearchEditNormalCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQSearchEditNormalCell.m; sourceTree = "<group>"; };
-		0C508062215B670A00A106FD /* ZQSearchConfirmCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZQSearchConfirmCell.h; sourceTree = "<group>"; };
-		0C508063215B670A00A106FD /* ZQSearchConfirmCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQSearchConfirmCell.m; sourceTree = "<group>"; };
-		0C508067215B6D8500A106FD /* searchEditModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = searchEditModel.h; sourceTree = "<group>"; };
-		0C508068215B6D8500A106FD /* searchEditModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = searchEditModel.m; sourceTree = "<group>"; };
-		0C7D97FA216AF2CE0095DA87 /* default@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default@3x.png"; sourceTree = "<group>"; };
+		0C6F08DE216C58ED0015CE9D /* icon_x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_x.png; sourceTree = "<group>"; };
+		0C6F08DF216C58ED0015CE9D /* empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = empty.png; sourceTree = "<group>"; };
+		0C6F08E0216C58ED0015CE9D /* default@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default@3x.png"; sourceTree = "<group>"; };
+		0C6F08E1216C58ED0015CE9D /* ZQSearch.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ZQSearch.podspec; sourceTree = "<group>"; };
+		0C6F08E2216C58ED0015CE9D /* ic_search@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_search@3x.png"; sourceTree = "<group>"; };
+		0C6F08E3216C58ED0015CE9D /* ic_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_back@2x.png"; sourceTree = "<group>"; };
+		0C6F08E6216C58ED0015CE9D /* ZQSearchConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQSearchConst.h; sourceTree = "<group>"; };
+		0C6F08E8216C58ED0015CE9D /* UIColor+ZQSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZQSearch.h"; sourceTree = "<group>"; };
+		0C6F08E9216C58ED0015CE9D /* UIColor+ZQSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZQSearch.m"; sourceTree = "<group>"; };
+		0C6F08EB216C58ED0015CE9D /* ZQSearchNormalLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQSearchNormalLayout.m; sourceTree = "<group>"; };
+		0C6F08EC216C58ED0015CE9D /* ZQSearchNormalLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQSearchNormalLayout.h; sourceTree = "<group>"; };
+		0C6F08EE216C58ED0015CE9D /* ZQSearchNormalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQSearchNormalViewController.h; sourceTree = "<group>"; };
+		0C6F08EF216C58ED0015CE9D /* ZQSearchEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQSearchEditViewController.m; sourceTree = "<group>"; };
+		0C6F08F0216C58ED0015CE9D /* ZQSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQSearchViewController.m; sourceTree = "<group>"; };
+		0C6F08F1216C58ED0015CE9D /* ZQSearchNormalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQSearchNormalViewController.m; sourceTree = "<group>"; };
+		0C6F08F2216C58ED0015CE9D /* ZQSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQSearchViewController.h; sourceTree = "<group>"; };
+		0C6F08F3216C58ED0015CE9D /* ZQSearchEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQSearchEditViewController.h; sourceTree = "<group>"; };
+		0C6F08F6216C58ED0015CE9D /* ZQSearchCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQSearchCollectionReusableView.h; sourceTree = "<group>"; };
+		0C6F08F7216C58ED0015CE9D /* ZQSearchNormalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQSearchNormalCell.m; sourceTree = "<group>"; };
+		0C6F08F8216C58ED0015CE9D /* ZQSearchEditBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQSearchEditBaseCell.m; sourceTree = "<group>"; };
+		0C6F08F9216C58ED0015CE9D /* ZQSearchConfirmCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQSearchConfirmCell.m; sourceTree = "<group>"; };
+		0C6F08FA216C58ED0015CE9D /* ZQSearchEditNormalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQSearchEditNormalCell.m; sourceTree = "<group>"; };
+		0C6F08FB216C58ED0015CE9D /* ZQSearchNormalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQSearchNormalCell.h; sourceTree = "<group>"; };
+		0C6F08FC216C58ED0015CE9D /* ZQSearchCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQSearchCollectionReusableView.m; sourceTree = "<group>"; };
+		0C6F08FD216C58ED0015CE9D /* ZQSearchEditBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQSearchEditBaseCell.h; sourceTree = "<group>"; };
+		0C6F08FE216C58ED0015CE9D /* ZQSearchEditNormalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQSearchEditNormalCell.h; sourceTree = "<group>"; };
+		0C6F08FF216C58ED0015CE9D /* ZQSearchConfirmCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQSearchConfirmCell.h; sourceTree = "<group>"; };
+		0C6F0912216C59000015CE9D /* searchEditModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = searchEditModel.m; sourceTree = "<group>"; };
+		0C6F0913216C59000015CE9D /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
+		0C6F0914216C59000015CE9D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0C6F0915216C59000015CE9D /* ResultFuzzyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultFuzzyViewController.h; sourceTree = "<group>"; };
+		0C6F0916216C59000015CE9D /* searchEditModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = searchEditModel.h; sourceTree = "<group>"; };
+		0C6F0917216C59000015CE9D /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		0C6F0918216C59000015CE9D /* ResultFuzzyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultFuzzyViewController.m; sourceTree = "<group>"; };
+		0C6F0919216C59000015CE9D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0C6F091A216C59000015CE9D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C6F091B216C59000015CE9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C6F091D216C59000015CE9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C6F091F216C59000015CE9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C6F0920216C59000015CE9D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C6F0921216C59000015CE9D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0C6F0922216C59000015CE9D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16ACD1970B7E94DD9415FD31 /* Pods-ZQSearchControllerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZQSearchControllerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZQSearchControllerUITests/Pods-ZQSearchControllerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		18E8DE0951875E83B11B8346 /* Pods-ZQSearchControllerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZQSearchControllerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZQSearchControllerTests/Pods-ZQSearchControllerTests.release.xcconfig"; sourceTree = "<group>"; };
 		7B8BDC367973E6FD7E59AF16 /* Pods-ZQSearchController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZQSearchController.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZQSearchController/Pods-ZQSearchController.release.xcconfig"; sourceTree = "<group>"; };
@@ -143,89 +146,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C17C129215A22980003ACDB /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				0C4E389821538AF9000766A0 /* ZQSearchViewController.h */,
-				0C4E389921538AF9000766A0 /* ZQSearchViewController.m */,
-				0C17C126215A201E0003ACDB /* ZQSearchNormalViewController.h */,
-				0C17C127215A201E0003ACDB /* ZQSearchNormalViewController.m */,
-				0C507BFA215B24A000A106FD /* ZQSearchEditViewController.h */,
-				0C507BFB215B24A000A106FD /* ZQSearchEditViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		0C17C12A215A22A10003ACDB /* View */ = {
-			isa = PBXGroup;
-			children = (
-				0C17C12B215A22CF0003ACDB /* ZQSearchNormalCell.h */,
-				0C17C12C215A22CF0003ACDB /* ZQSearchNormalCell.m */,
-				0C17C13D215A2C6A0003ACDB /* ZQSearchCollectionReusableView.h */,
-				0C17C13E215A2C6A0003ACDB /* ZQSearchCollectionReusableView.m */,
-				0C507E12215B2DA300A106FD /* ZQSearchEditBaseCell.h */,
-				0C507E13215B2DA300A106FD /* ZQSearchEditBaseCell.m */,
-				0C507E15215B2E5E00A106FD /* ZQSearchEditNormalCell.h */,
-				0C507E16215B2E5E00A106FD /* ZQSearchEditNormalCell.m */,
-				0C508062215B670A00A106FD /* ZQSearchConfirmCell.h */,
-				0C508063215B670A00A106FD /* ZQSearchConfirmCell.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		0C17C130215A23FA0003ACDB /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				0C17C131215A24230003ACDB /* UIColor+ZQSearch.h */,
-				0C17C132215A24230003ACDB /* UIColor+ZQSearch.m */,
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		0C17C134215A27710003ACDB /* Layout */ = {
-			isa = PBXGroup;
-			children = (
-				0C17C135215A279A0003ACDB /* ZQSearchNormalLayout.h */,
-				0C17C136215A279A0003ACDB /* ZQSearchNormalLayout.m */,
-			);
-			path = Layout;
-			sourceTree = "<group>";
-		};
-		0C1F4B51215E1CEA0010C1F3 /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				0C1F4B52215E1CFF0010C1F3 /* Image */,
-			);
-			path = Resource;
-			sourceTree = "<group>";
-		};
-		0C1F4B52215E1CFF0010C1F3 /* Image */ = {
-			isa = PBXGroup;
-			children = (
-				0C7D97FA216AF2CE0095DA87 /* default@3x.png */,
-				0C1F4B60215E2F6D0010C1F3 /* ic_back@2x.png */,
-				0C1F4B57215E21830010C1F3 /* ic_search@3x.png */,
-				0C1F4B53215E1D0E0010C1F3 /* icon_x.png */,
-				0C1F4B55215E1EF10010C1F3 /* empty.png */,
-			);
-			path = Image;
-			sourceTree = "<group>";
-		};
-		0C1F4B62215E38810010C1F3 /* Demo */ = {
-			isa = PBXGroup;
-			children = (
-				0C4E386921538A2D000766A0 /* ViewController.h */,
-				0C4E386A21538A2D000766A0 /* ViewController.m */,
-				0C1F4B59215E28C30010C1F3 /* ResultViewController.h */,
-				0C1F4B5A215E28C30010C1F3 /* ResultViewController.m */,
-				0C1F4B63215E39090010C1F3 /* ResultFuzzyViewController.h */,
-				0C1F4B64215E39090010C1F3 /* ResultFuzzyViewController.m */,
-				0C508067215B6D8500A106FD /* searchEditModel.h */,
-				0C508068215B6D8500A106FD /* searchEditModel.m */,
-			);
-			path = Demo;
-			sourceTree = "<group>";
-		};
 		0C4E385A21538A2C000766A0 = {
 			isa = PBXGroup;
 			children = (
@@ -251,15 +171,9 @@
 		0C4E386521538A2D000766A0 /* ZQSearchController */ = {
 			isa = PBXGroup;
 			children = (
-				0C4E389B21538C7C000766A0 /* ZQSearch */,
-				0C4E386621538A2D000766A0 /* AppDelegate.h */,
-				0C4E386721538A2D000766A0 /* AppDelegate.m */,
-				0C1F4B62215E38810010C1F3 /* Demo */,
-				0C4E386C21538A2D000766A0 /* Main.storyboard */,
-				0C4E386F21538A2E000766A0 /* Assets.xcassets */,
-				0C4E387121538A2E000766A0 /* LaunchScreen.storyboard */,
-				0C4E387421538A2E000766A0 /* Info.plist */,
-				0C4E387521538A2E000766A0 /* main.m */,
+				0C6F0910216C59000015CE9D /* Example */,
+				0C6F08E4216C58ED0015CE9D /* Classes */,
+				0C6F08DD216C58ED0015CE9D /* Images */,
 			);
 			path = ZQSearchController;
 			sourceTree = "<group>";
@@ -282,25 +196,123 @@
 			path = ZQSearchControllerUITests;
 			sourceTree = "<group>";
 		};
-		0C4E389B21538C7C000766A0 /* ZQSearch */ = {
+		0C6F08DD216C58ED0015CE9D /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				0C1F4B51215E1CEA0010C1F3 /* Resource */,
-				0C50805E215B659A00A106FD /* Model */,
-				0C17C134215A27710003ACDB /* Layout */,
-				0C17C130215A23FA0003ACDB /* Category */,
-				0C17C12A215A22A10003ACDB /* View */,
-				0C17C129215A22980003ACDB /* Controller */,
-				0C507BF9215B189A00A106FD /* ZQSearchConst.h */,
+				0C6F08DE216C58ED0015CE9D /* icon_x.png */,
+				0C6F08DF216C58ED0015CE9D /* empty.png */,
+				0C6F08E0216C58ED0015CE9D /* default@3x.png */,
+				0C6F08E1216C58ED0015CE9D /* ZQSearch.podspec */,
+				0C6F08E2216C58ED0015CE9D /* ic_search@3x.png */,
+				0C6F08E3216C58ED0015CE9D /* ic_back@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		0C6F08E4216C58ED0015CE9D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0C6F08E5216C58ED0015CE9D /* ZQSearch */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0C6F08E5216C58ED0015CE9D /* ZQSearch */ = {
+			isa = PBXGroup;
+			children = (
+				0C6F08E6216C58ED0015CE9D /* ZQSearchConst.h */,
+				0C6F08E7216C58ED0015CE9D /* Category */,
+				0C6F08EA216C58ED0015CE9D /* Layout */,
+				0C6F08ED216C58ED0015CE9D /* Controller */,
+				0C6F08F4216C58ED0015CE9D /* Model */,
+				0C6F08F5216C58ED0015CE9D /* View */,
 			);
 			path = ZQSearch;
 			sourceTree = "<group>";
 		};
-		0C50805E215B659A00A106FD /* Model */ = {
+		0C6F08E7216C58ED0015CE9D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0C6F08E8216C58ED0015CE9D /* UIColor+ZQSearch.h */,
+				0C6F08E9216C58ED0015CE9D /* UIColor+ZQSearch.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		0C6F08EA216C58ED0015CE9D /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				0C6F08EB216C58ED0015CE9D /* ZQSearchNormalLayout.m */,
+				0C6F08EC216C58ED0015CE9D /* ZQSearchNormalLayout.h */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		0C6F08ED216C58ED0015CE9D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0C6F08EE216C58ED0015CE9D /* ZQSearchNormalViewController.h */,
+				0C6F08EF216C58ED0015CE9D /* ZQSearchEditViewController.m */,
+				0C6F08F0216C58ED0015CE9D /* ZQSearchViewController.m */,
+				0C6F08F1216C58ED0015CE9D /* ZQSearchNormalViewController.m */,
+				0C6F08F2216C58ED0015CE9D /* ZQSearchViewController.h */,
+				0C6F08F3216C58ED0015CE9D /* ZQSearchEditViewController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0C6F08F4216C58ED0015CE9D /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		0C6F08F5216C58ED0015CE9D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0C6F08FD216C58ED0015CE9D /* ZQSearchEditBaseCell.h */,
+				0C6F08F8216C58ED0015CE9D /* ZQSearchEditBaseCell.m */,
+				0C6F08FF216C58ED0015CE9D /* ZQSearchConfirmCell.h */,
+				0C6F08F9216C58ED0015CE9D /* ZQSearchConfirmCell.m */,
+				0C6F08FB216C58ED0015CE9D /* ZQSearchNormalCell.h */,
+				0C6F08F7216C58ED0015CE9D /* ZQSearchNormalCell.m */,
+				0C6F08FE216C58ED0015CE9D /* ZQSearchEditNormalCell.h */,
+				0C6F08FA216C58ED0015CE9D /* ZQSearchEditNormalCell.m */,
+				0C6F08FC216C58ED0015CE9D /* ZQSearchCollectionReusableView.m */,
+				0C6F08F6216C58ED0015CE9D /* ZQSearchCollectionReusableView.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0C6F0910216C59000015CE9D /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				0C6F0911216C59000015CE9D /* Demo */,
+				0C6F091A216C59000015CE9D /* AppDelegate.h */,
+				0C6F091B216C59000015CE9D /* Assets.xcassets */,
+				0C6F091C216C59000015CE9D /* LaunchScreen.storyboard */,
+				0C6F091E216C59000015CE9D /* Main.storyboard */,
+				0C6F0920216C59000015CE9D /* main.m */,
+				0C6F0921216C59000015CE9D /* AppDelegate.m */,
+				0C6F0922216C59000015CE9D /* Info.plist */,
+			);
+			path = Example;
+			sourceTree = SOURCE_ROOT;
+		};
+		0C6F0911216C59000015CE9D /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				0C6F0916216C59000015CE9D /* searchEditModel.h */,
+				0C6F0912216C59000015CE9D /* searchEditModel.m */,
+				0C6F0915216C59000015CE9D /* ResultFuzzyViewController.h */,
+				0C6F0918216C59000015CE9D /* ResultFuzzyViewController.m */,
+				0C6F0917216C59000015CE9D /* ResultViewController.h */,
+				0C6F0913216C59000015CE9D /* ResultViewController.m */,
+				0C6F0919216C59000015CE9D /* ViewController.h */,
+				0C6F0914216C59000015CE9D /* ViewController.m */,
+			);
+			path = Demo;
 			sourceTree = "<group>";
 		};
 		10FA21D57663B990CF2C6095 /* Frameworks */ = {
@@ -432,14 +444,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C4E387321538A2E000766A0 /* LaunchScreen.storyboard in Resources */,
-				0C1F4B58215E21830010C1F3 /* ic_search@3x.png in Resources */,
-				0C7D97FB216AF2CE0095DA87 /* default@3x.png in Resources */,
-				0C1F4B56215E1EF10010C1F3 /* empty.png in Resources */,
-				0C1F4B61215E2F6D0010C1F3 /* ic_back@2x.png in Resources */,
-				0C4E387021538A2E000766A0 /* Assets.xcassets in Resources */,
-				0C4E386E21538A2D000766A0 /* Main.storyboard in Resources */,
-				0C1F4B54215E1D0E0010C1F3 /* icon_x.png in Resources */,
+				0C6F0902216C58ED0015CE9D /* default@3x.png in Resources */,
+				0C6F0928216C59000015CE9D /* LaunchScreen.storyboard in Resources */,
+				0C6F0903216C58ED0015CE9D /* ZQSearch.podspec in Resources */,
+				0C6F0904216C58ED0015CE9D /* ic_search@3x.png in Resources */,
+				0C6F0905216C58ED0015CE9D /* ic_back@2x.png in Resources */,
+				0C6F0927216C59000015CE9D /* Assets.xcassets in Resources */,
+				0C6F0929216C59000015CE9D /* Main.storyboard in Resources */,
+				0C6F0900216C58ED0015CE9D /* icon_x.png in Resources */,
+				0C6F092C216C59000015CE9D /* Info.plist in Resources */,
+				0C6F0901216C58ED0015CE9D /* empty.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,22 +535,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C4E386B21538A2D000766A0 /* ViewController.m in Sources */,
-				0C507E14215B2DA300A106FD /* ZQSearchEditBaseCell.m in Sources */,
-				0C17C137215A279A0003ACDB /* ZQSearchNormalLayout.m in Sources */,
-				0C507E18215B2E5E00A106FD /* ZQSearchEditNormalCell.m in Sources */,
-				0C508065215B670A00A106FD /* ZQSearchConfirmCell.m in Sources */,
-				0C508069215B6D8500A106FD /* searchEditModel.m in Sources */,
-				0C17C13F215A2C6A0003ACDB /* ZQSearchCollectionReusableView.m in Sources */,
-				0C507BFC215B24A000A106FD /* ZQSearchEditViewController.m in Sources */,
-				0C1F4B5B215E28C30010C1F3 /* ResultViewController.m in Sources */,
-				0C4E387621538A2E000766A0 /* main.m in Sources */,
-				0C17C133215A24230003ACDB /* UIColor+ZQSearch.m in Sources */,
-				0C4E386821538A2D000766A0 /* AppDelegate.m in Sources */,
-				0C1F4B65215E39090010C1F3 /* ResultFuzzyViewController.m in Sources */,
-				0C17C12E215A22CF0003ACDB /* ZQSearchNormalCell.m in Sources */,
-				0C4E389A21538AF9000766A0 /* ZQSearchViewController.m in Sources */,
-				0C17C128215A201E0003ACDB /* ZQSearchNormalViewController.m in Sources */,
+				0C6F090F216C58ED0015CE9D /* ZQSearchCollectionReusableView.m in Sources */,
+				0C6F090C216C58ED0015CE9D /* ZQSearchEditBaseCell.m in Sources */,
+				0C6F0908216C58ED0015CE9D /* ZQSearchEditViewController.m in Sources */,
+				0C6F0906216C58ED0015CE9D /* UIColor+ZQSearch.m in Sources */,
+				0C6F092B216C59000015CE9D /* AppDelegate.m in Sources */,
+				0C6F090E216C58ED0015CE9D /* ZQSearchEditNormalCell.m in Sources */,
+				0C6F0907216C58ED0015CE9D /* ZQSearchNormalLayout.m in Sources */,
+				0C6F0925216C59000015CE9D /* ViewController.m in Sources */,
+				0C6F0923216C59000015CE9D /* searchEditModel.m in Sources */,
+				0C6F0926216C59000015CE9D /* ResultFuzzyViewController.m in Sources */,
+				0C6F090B216C58ED0015CE9D /* ZQSearchNormalCell.m in Sources */,
+				0C6F092A216C59000015CE9D /* main.m in Sources */,
+				0C6F0909216C58ED0015CE9D /* ZQSearchViewController.m in Sources */,
+				0C6F090A216C58ED0015CE9D /* ZQSearchNormalViewController.m in Sources */,
+				0C6F090D216C58ED0015CE9D /* ZQSearchConfirmCell.m in Sources */,
+				0C6F0924216C59000015CE9D /* ResultViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -572,20 +586,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0C4E386C21538A2D000766A0 /* Main.storyboard */ = {
+		0C6F091C216C59000015CE9D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0C4E386D21538A2D000766A0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0C4E387121538A2E000766A0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0C4E387221538A2E000766A0 /* Base */,
+				0C6F091D216C59000015CE9D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0C6F091E216C59000015CE9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C6F091F216C59000015CE9D /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -709,7 +723,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 63937TF85X;
-				INFOPLIST_FILE = ZQSearchController/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Example/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -729,7 +743,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 63937TF85X;
-				INFOPLIST_FILE = ZQSearchController/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Example/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

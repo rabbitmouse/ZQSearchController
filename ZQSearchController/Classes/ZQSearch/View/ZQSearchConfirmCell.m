@@ -36,6 +36,8 @@
 }
 
 - (void)configUI {
+    self.selectionStyle = UITableViewCellSelectionStyleNone;
+    
     UIImageView *iconView = [[UIImageView alloc] init];
     [self.contentView addSubview:iconView];
     self.iconImageView = iconView;
