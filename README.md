@@ -15,6 +15,9 @@
 #### 依赖项目
 SDWebImage
 
+#### 版本要求
++ iOS9.0或更高
+
 #### main
 + `ZQSearchConst`
 + `ZQSearchViewController`
@@ -22,7 +25,10 @@ SDWebImage
 + `ZQSearchEditViewController`
 
 #### 如何使用
-- `git clone` project，将ZQSearch文件夹拖入项目
+- Import:
+	`git clone` project，将ZQSearch文件夹拖入项目
+- Use CocoaPods:
+	`pod 'ZQSearch', '~> 0.1.3'`
 
 ##### 使用详情（项目里有demo）
 
