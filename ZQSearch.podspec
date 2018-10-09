@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZQSearch'
-  s.version          = '0.1.8'
+  s.version          = '0.1.0'
   s.summary          = 'Search，SearchBar,  仿《饿了么》搜索栏。'
 
 # This description is used to generate tags and improve search results.
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
   s.homepage         = 'https://github.com/rabbitmouse/ZQSearchController'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = "MIT"
   s.author           = { '578259544@qq.com' => '578259544@qq.com' }
   s.source           = { :git => 'https://github.com/rabbitmouse/ZQSearchController.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
