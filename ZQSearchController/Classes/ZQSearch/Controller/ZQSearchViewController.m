@@ -331,7 +331,7 @@
 #pragma mark - getter & setter
 - (UITextField *)searchBar {
     if (!_searchBar) {
-        _searchBar = [[UITextField alloc] initWithFrame:CGRectMake(60, naviHeight - 5 - searchBarH, [UIScreen mainScreen].bounds.size.width - 60 - 60, searchBarH)];
+        _searchBar = [[UITextField alloc] initWithFrame:CGRectMake(60, naviHeight - 5 - searchBarH, ZQSearchWidth - 60 - itemWidth - padding, searchBarH)];
         _searchBar.placeholder = @"搜索";
         _searchBar.layer.cornerRadius = 2.f;
         _searchBar.font = [UIFont systemFontOfSize:14];

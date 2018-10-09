@@ -252,11 +252,11 @@
 			isa = PBXGroup;
 			children = (
 				0C6F08EE216C58ED0015CE9D /* ZQSearchNormalViewController.h */,
-				0C6F08EF216C58ED0015CE9D /* ZQSearchEditViewController.m */,
-				0C6F08F0216C58ED0015CE9D /* ZQSearchViewController.m */,
 				0C6F08F1216C58ED0015CE9D /* ZQSearchNormalViewController.m */,
-				0C6F08F2216C58ED0015CE9D /* ZQSearchViewController.h */,
 				0C6F08F3216C58ED0015CE9D /* ZQSearchEditViewController.h */,
+				0C6F08EF216C58ED0015CE9D /* ZQSearchEditViewController.m */,
+				0C6F08F2216C58ED0015CE9D /* ZQSearchViewController.h */,
+				0C6F08F0216C58ED0015CE9D /* ZQSearchViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
