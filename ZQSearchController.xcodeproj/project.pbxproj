@@ -34,7 +34,6 @@
 		0C6F0929216C59000015CE9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C6F091E216C59000015CE9D /* Main.storyboard */; };
 		0C6F092A216C59000015CE9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6F0920216C59000015CE9D /* main.m */; };
 		0C6F092B216C59000015CE9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6F0921216C59000015CE9D /* AppDelegate.m */; };
-		0C6F092C216C59000015CE9D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C6F0922216C59000015CE9D /* Info.plist */; };
 		14D9BD4F2EEB108F3333AD7E /* libPods-ZQSearchControllerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB5F4B5C0A249BD55BC37EA /* libPods-ZQSearchControllerUITests.a */; };
 		F14ECEA2701B3B4DC28E6150 /* libPods-ZQSearchController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE18AE016B8576B5A528756 /* libPods-ZQSearchController.a */; };
 		F4F376065CD7AC08A5632399 /* libPods-ZQSearchControllerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E0A97115FEAA4911B46CF1 /* libPods-ZQSearchControllerTests.a */; };
@@ -452,7 +451,6 @@
 				0C6F0927216C59000015CE9D /* Assets.xcassets in Resources */,
 				0C6F0929216C59000015CE9D /* Main.storyboard in Resources */,
 				0C6F0900216C58ED0015CE9D /* icon_x.png in Resources */,
-				0C6F092C216C59000015CE9D /* Info.plist in Resources */,
 				0C6F0901216C58ED0015CE9D /* empty.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -721,8 +719,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 63937TF85X;
+				DEVELOPMENT_TEAM = GVRZAZ428P;
 				INFOPLIST_FILE = "$(SRCROOT)/Example/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -731,6 +730,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZQ.ZQSearchController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -741,8 +741,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 63937TF85X;
+				DEVELOPMENT_TEAM = GVRZAZ428P;
 				INFOPLIST_FILE = "$(SRCROOT)/Example/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -751,6 +752,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZQ.ZQSearchController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
