@@ -26,7 +26,7 @@ typedef NS_ENUM(NSUInteger, ZQSearchState) {
 @required
 - (void)searchFuzzyResultWithKeyString:(NSString *)keyString Data:(id<ZQSearchData>)data resultController:(UIViewController *)resultController;
 @optional
-- (void)searchEditViewRefreshWithDataBlock:(void(^)(id data))block;
+- (void)searchEditViewRefreshWithKeyString:(NSString *)keyString DataBlock:(void(^)(id data))block;
 - (void)searchConfirmResultWithKeyString:(NSString *)keyString Data:(id<ZQSearchData>)data resultController:(UIViewController *)resultController;
 
 @end

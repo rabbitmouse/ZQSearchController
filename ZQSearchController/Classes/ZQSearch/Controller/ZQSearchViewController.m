@@ -218,9 +218,9 @@
         return;
     }
     //刷新模糊搜索界面
-    if (self.delegate && [self.delegate respondsToSelector:@selector(searchEditViewRefreshWithDataBlock:)]) {
+    if (self.delegate && [self.delegate respondsToSelector:@selector(searchEditViewRefreshWithKeyString:DataBlock:)]) {
         @weakify(self)
-        [self.delegate searchEditViewRefreshWithDataBlock:^(id data) {
+        [self.delegate searchEditViewRefreshWithKeyString:self.searchBar.text DataBlock:^(id data) {
             @strongify(self)
             [self.ctr2 refreshSearchEditViewWith:data];
         }];

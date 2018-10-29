@@ -49,7 +49,7 @@
 
 
 #pragma mark - ZQSearchViewDelegate
-- (void)searchEditViewRefreshWithDataBlock:(void (^)(id))block {
+- (void)searchEditViewRefreshWithKeyString:(NSString *)keyString DataBlock:(void (^)(id))block {
     NSMutableArray *arr = [NSMutableArray array];
     dispatch_async(dispatch_get_global_queue(0, 0), ^{
         for (int i = 0; i < 5 + arc4random() % 10; i++) {
