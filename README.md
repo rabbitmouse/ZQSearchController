@@ -26,7 +26,7 @@ SDWebImage
 
 #### 如何使用
 * Use CocoaPods:
-  - `pod 'ZQSearch', '~> 0.1.4'`
+  - `pod 'ZQSearch', '~> 0.1.5'`
   - `#import <ZQSearchViewController.h>`
 * Manual import：
   - `git clone` project 
