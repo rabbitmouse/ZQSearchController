@@ -47,7 +47,7 @@ vc.delegate = self;
 ```
 2.实现代理
 ```objc
-- (void)searchEditViewRefreshWithDataBlock:(void (^)(id))block {
+- (void)searchEditViewRefreshWithKeyString:(NSString *)keyString DataBlock:(void (^)(id))block {
 //异步调用搜索接口。
 将搜索结果通过block回调到searchcontroller内部。
 }
