@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZQSearch'
-  s.version          = '0.1.5'
+  s.version          = '0.1.7'
   s.summary          = 'Search，SearchBar,  仿《饿了么》搜索栏。'
 
 # This description is used to generate tags and improve search results.
