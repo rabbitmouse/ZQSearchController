@@ -16,7 +16,7 @@
 #define itemWidth 30.f
 #define itemHeight 30.f
 #define searchBarH 36.f
-#define naviHeight ([self isIPhoneX] ? 84.f : 64.f)
+#define naviHeight (IS_PhoneXAll ? 84.f : 64.f)
 
 @interface ZQSearchViewController ()<UITextFieldDelegate, ZQSearchChildViewDelegate>
 
@@ -271,10 +271,6 @@
     }
 }
 
-- (BOOL)isIPhoneX {
-    CGSize screenSize = [UIScreen mainScreen].bounds.size;
-    return screenSize.width >= 375 && screenSize.height >= 812;
-}
 
 #pragma mark - ZQSearchChildViewDelegate
 - (void)searchChildViewDidScroll {

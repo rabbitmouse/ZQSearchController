@@ -77,7 +77,7 @@
 		0C6F08EC216C58ED0015CE9D /* ZQSearchNormalLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQSearchNormalLayout.h; sourceTree = "<group>"; };
 		0C6F08EE216C58ED0015CE9D /* ZQSearchNormalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQSearchNormalViewController.h; sourceTree = "<group>"; };
 		0C6F08EF216C58ED0015CE9D /* ZQSearchEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQSearchEditViewController.m; sourceTree = "<group>"; };
-		0C6F08F0216C58ED0015CE9D /* ZQSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQSearchViewController.m; sourceTree = "<group>"; };
+		0C6F08F0216C58ED0015CE9D /* ZQSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQSearchViewController.m; sourceTree = "<group>"; wrapsLines = 0; };
 		0C6F08F1216C58ED0015CE9D /* ZQSearchNormalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQSearchNormalViewController.m; sourceTree = "<group>"; };
 		0C6F08F2216C58ED0015CE9D /* ZQSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQSearchViewController.h; sourceTree = "<group>"; };
 		0C6F08F3216C58ED0015CE9D /* ZQSearchEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQSearchEditViewController.h; sourceTree = "<group>"; };
