@@ -2,7 +2,7 @@
 # platform :ios, '9.0'
 
 target 'ZQSearchController' do
-  pod 'SDWebImage', '~> 4.0'
+  pod 'SDWebImage', '>= 4.0'
 
   target 'ZQSearchControllerTests' do
     inherit! :search_paths
