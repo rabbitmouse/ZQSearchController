@@ -266,6 +266,10 @@
         [self.ctr3.historyList removeObject:searchText];
         [self.ctr3.historyList insertObject:searchText atIndex:0];
         
+        if (self.historyCount && self.ctr3.historyList.count > self.historyCount) {
+            [self.ctr3.historyList removeObjectsInRange:NSMakeRange(self.historyCount, self.ctr3.historyList.count - self.historyCount)];
+        }
+        
         [NSKeyedArchiver archiveRootObject:self.ctr3.historyList toFile:ZQ_SEARCH_HISTORY_CACHE_PATH];
         [self.ctr3 refreshHistoryView];
     }
