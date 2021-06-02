@@ -11,12 +11,12 @@
 #import "ZQSearchEditViewController.h"
 
 #define padding 20.f
-#define bottomPadding 0.f
+#define bottomPadding 5.f
 #define naviPadding 50.f
 #define itemWidth 30.f
 #define itemHeight 30.f
 #define searchBarH 36.f
-#define naviHeight (IS_PhoneXAll ? 84.f : 64.f)
+#define naviHeight (Match_PhoneXAll ? 88.f : 64.f)
 
 @interface ZQSearchViewController ()<UITextFieldDelegate, ZQSearchChildViewDelegate>
 
@@ -42,10 +42,6 @@
 @end
 
 @implementation ZQSearchViewController
-
-- (void)dealloc {
-    NSLog(@"dealloc");
-}
 
 - (instancetype)initSearchViewWithHotDatas:(NSArray *)hotList resultController:(UIViewController *)resultController{
     self = [super init];
@@ -327,7 +323,7 @@
 #pragma mark - getter & setter
 - (UITextField *)searchBar {
     if (!_searchBar) {
-        _searchBar = [[UITextField alloc] initWithFrame:CGRectMake(60, naviHeight - searchBarH, ZQSearchWidth - 60 - itemWidth - padding, searchBarH)];
+        _searchBar = [[UITextField alloc] initWithFrame:CGRectMake(60, naviHeight - searchBarH - bottomPadding, ZQSearchWidth - 60 - itemWidth - padding, searchBarH)];
         _searchBar.placeholder = @"搜索";
         _searchBar.layer.cornerRadius = 2.f;
         _searchBar.font = [UIFont systemFontOfSize:14];
@@ -371,7 +367,7 @@
 - (UIButton *)cancelBtn {
     if (!_cancelBtn) {
         _cancelBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        _cancelBtn.frame = CGRectMake(ZQSearchWidth - 10 - itemWidth, naviHeight - itemHeight - 3, itemWidth, itemHeight);
+        _cancelBtn.frame = CGRectMake(ZQSearchWidth - 10 - itemWidth, naviHeight - itemHeight - bottomPadding - 3, itemWidth, itemHeight);
         [_cancelBtn setTitle:@"取消" forState:UIControlStateNormal];
         [_cancelBtn setTitleColor:[UIColor lightGrayColor] forState:UIControlStateNormal];
         _cancelBtn.titleLabel.font = [UIFont systemFontOfSize:14];

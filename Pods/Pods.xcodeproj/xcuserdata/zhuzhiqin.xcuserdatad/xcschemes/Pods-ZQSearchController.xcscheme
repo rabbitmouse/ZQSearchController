@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B71E8B8B3BF1C55CC04398A22DC9411A"
+               BlueprintIdentifier = "EC359D0F3302B8BDD4E6C8582007F440"
+               BuildableName = "libPods-ZQSearchController.a"
                BlueprintName = "Pods-ZQSearchController"
-               ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libPods-ZQSearchController.a">
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
